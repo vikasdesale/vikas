@@ -1265,7 +1265,13 @@ audio {
 	display: none;
 }
 .thankyou{
+
 display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .cake-cover {
 	margin-top: 50px;

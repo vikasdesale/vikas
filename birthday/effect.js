@@ -127,13 +127,10 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
-		 var x = document.getElementById('birthday');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-	});
+		$('.cake').fadeIn('slow');
+		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+			$('#light_candle').fadeIn('slow');
+		});
 	});
 
 	$('#light_candle').click(function(){

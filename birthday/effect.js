@@ -158,7 +158,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow');
 		$('.birthday').fadeOut('slow');
 		$('.cards').fadeIn('slow');
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 		$('.cards').fadeOut('slow');
 		$('.thankYou').fadeIn('slow');
 

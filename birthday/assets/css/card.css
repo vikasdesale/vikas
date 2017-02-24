@@ -35,15 +35,15 @@
     box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
 }
 #card {
-    max-width: 500px;
-    margin: auto auto auto auto;
+ max-width: 960px;
+    margin: 0 auto;
     transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     perspective: 5000px;
     -moz-perspective: 5000px;
     -webkit-perspective: 5000px;
-    position: absolute;
+    position: relative;
 	top: 50%;
 	left: -30%;
 	transform:translateY(-50%);

@@ -9,7 +9,7 @@
 }
 #birthday_id {
     position: fixed;
-    bottom: 150;
+    bottom: 0;
     width: 150px;
 }
 .birthday {

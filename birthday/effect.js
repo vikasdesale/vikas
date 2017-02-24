@@ -156,9 +156,9 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-		setTimeout(function() {
-       window.location.href = "http://www.google.com/;"
-      }, 2000);
+		$('.birthday').fadeOut('slow');
+		$('.card').fadeIn('slow');
+
 		
 });
 

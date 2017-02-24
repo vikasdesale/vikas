@@ -19,8 +19,6 @@ $('document').ready(function(){
 		});
 
 	$('#turn_on').click(function(){
-		$('#birthday_id').addClass('birthday');
-
 	$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
 		$('#bulb_blue').addClass('bulb-glow-blue');
@@ -50,8 +48,11 @@ $('document').ready(function(){
 
 	$('#bannar_coming').click(function(){
 		$('.bannar').addClass('bannar-come');
+		$('#birthday_id').addClass('birthday');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
+					$('#birthday_id').fadeIn('slow');
+
 		});
 	});
 

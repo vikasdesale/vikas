@@ -2,16 +2,15 @@
     position: absolute;
     bottom: 100px;
     width: 150px;
+    left: 172px;
     z-index: 12;
-	margin-left: auto; 
-	margin-right: auto;
     height: 180px;
 	
 }
 #birthday_id {
     position: fixed;
     bottom: 150;
-    width:500px;
+    width: 150px;
 }
 .birthday {
 	display: none;

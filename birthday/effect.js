@@ -156,8 +156,9 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-		    window.location.href = "http://www.google.com";
-
+		$('.cake').fadeOut('fast').promise().done(function(){
+			$('.message').fadeIn('slow');
+		});
 		
 });
 

@@ -1284,7 +1284,7 @@ audio {
 .row{
  position: fixed;
      bottom: 0;
-     right: 200px;
+     right: 0;
 }
 .btn-primary {
         border-color: #466baf;

@@ -19,7 +19,7 @@ $('document').ready(function(){
 		});
 
 	$('#turn_on').click(function(){
-	 document.getElementById('birthday').style.display='block';
+		$('#birthday_id').addClass('birthday');
 
 	$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');

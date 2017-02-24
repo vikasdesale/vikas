@@ -12,7 +12,7 @@ body {
 }
 #birthday_id {
     position: fixed;
-    bottom: 0;
+    bottom: 200px;
     width: 100%;
 }
 .wrap {

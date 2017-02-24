@@ -34,8 +34,8 @@
     box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
 }
 #card {
-    max-width: 960px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: auto auto auto auto;
     transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;

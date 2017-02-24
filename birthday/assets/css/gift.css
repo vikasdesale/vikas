@@ -2,7 +2,7 @@ body {
     background: #ffebd0;
 }
 .gift {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 150px;
     left: 172px;

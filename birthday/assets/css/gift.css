@@ -339,7 +339,7 @@ body {
 
 .birthday{
   display: none;
-  
+  visibility: hidden;
 }
 
 .cake_top1_creams {

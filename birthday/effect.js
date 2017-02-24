@@ -156,12 +156,19 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-			$(this).fadeOut('slow');
-		$('.birthday').fadeOut('slow');
 		$('.birthday').fadeOut('fast').promise().done(function(){
 			$('.cards').fadeIn('slow');
 		});
 		
+		var i;
+
+		function msgLoop (i) {
+			// body...
+		}
+		
+		msgLoop(0);
+		
+	});
 });
 
 

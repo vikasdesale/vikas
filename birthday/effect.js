@@ -156,12 +156,13 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-		var delay = 1000; //Your delay in milliseconds
-setTimeout(function(){ window.location = "http://geca.ac.in/;" }, delay);
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
 		});
 		
+		
+		
+	
 });
 
 

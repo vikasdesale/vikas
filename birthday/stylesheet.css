@@ -1281,11 +1281,7 @@ audio {
 	display: none;
 	font-weight: bold;
 }
-.row{
- position: fixed;
-     bottom: 0;
-     right: 0;
-}
+
 .btn-primary {
         border-color: #466baf;
         padding: 10px;

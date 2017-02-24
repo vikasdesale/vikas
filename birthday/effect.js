@@ -160,10 +160,10 @@ $('document').ready(function(){
 		$('.cards').fadeIn('slow');
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 		$('.cards').fadeOut('slow');
-		$('.thankYou').fadeIn('slow');
-
 		});
-		
+				$('.cards1').fadeIn('slow');
+				$('.thankYou').fadeIn('slow');
+
 		
 	});
 });

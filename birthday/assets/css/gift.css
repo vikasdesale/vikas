@@ -9,7 +9,7 @@
 }
 #birthday_id {
     position: fixed;
-    bottom: 0;
+    bottom: 150;
     width: 150px;
 }
 .birthday {
@@ -135,7 +135,7 @@
     width: 330px;
     height: 5px;
     bottom: 0px;
-    background: #9dc5c4;
+    background-color: #FFEFD5;
     border-top: 2px solid #e6e7e9;
 }
 .cake_bottom2 {

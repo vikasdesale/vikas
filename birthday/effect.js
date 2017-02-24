@@ -16,7 +16,7 @@ $('document').ready(function(){
 			$('#b77').animate({top:240, left: vw+250},500);
 		});
 
-	$('#turn_on').click(function(){
+	$('#play').click(function(){
 		$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
 		$('#bulb_blue').addClass('bulb-glow-blue');
@@ -26,9 +26,11 @@ $('document').ready(function(){
 		$('body').addClass('peach');
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#play').fadeIn('slow');
+			play();
+			
 		});
 	});
-	$('#play').click(function(){
+function play(){
 		var audio = $('.song')[0];
         audio.play();
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
@@ -41,13 +43,15 @@ $('document').ready(function(){
 		$('body').addClass('peach-after');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
+			banner();
 		});
 	});
 
-	$('#bannar_coming').click(function(){
+function banner(){
 		$('.bannar').addClass('bannar-come');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
+			
 		});
 	});
 

@@ -8,6 +8,12 @@ body {
     left: 172px;
     z-index: 12;
     height: 180px;
+	
+}
+#birthday_id {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .wrap {
     height: 300px;

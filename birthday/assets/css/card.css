@@ -11,6 +11,8 @@
 
 #card, #card-front, #card-inside {
   height: 480px;
+  width: 480px;
+
 }
 
 .wrap {

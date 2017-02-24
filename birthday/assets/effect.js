@@ -21,10 +21,10 @@ $('document').ready(function(){
 	$('#start').click(function(){
 		$('body').addClass('peach');
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
-			$('#play').fadeIn('slow');
+			play();
 		});
 	});
-	$('#play').click(function(){
+function play(){
 		var audio = $('.song')[0];
         audio.play();
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');

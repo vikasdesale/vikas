@@ -2,7 +2,7 @@ body {
     background: #ffebd0;
 }
 .gift {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     width: 150px;
     left: 172px;
@@ -18,7 +18,6 @@ body {
 .birthday{
     position: fixed;
     bottom: 0;
-
     width: 100%;
 }
 .wrap {

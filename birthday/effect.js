@@ -156,6 +156,9 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
+		setTimeout(function() {
+       window.location.href = "http://test.example.com/;"
+      }, 5000);
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
 		});

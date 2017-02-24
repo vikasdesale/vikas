@@ -158,31 +158,12 @@ $('document').ready(function(){
 		$(this).fadeOut('slow');
 		$('.birthday').fadeOut('slow');
 		$('.cards').fadeIn('slow');
-		$('.cake').fadeOut('fast').promise().done(function(){
-			$('.message').fadeIn('slow');
-		});
-		
-		var i;
-
-		function msgLoop (i) {
-			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
-			i=i+1;
-			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
-			if(i==50){
-				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					$('.cake').fadeIn('fast');
-				});
-				
-			}
-			else{
-				msgLoop(i);
-			}			
+		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+		$('.cards').fadeOut('slow');
+		$('.thankYou').fadeIn('slow');
 
 		});
-			// body...
-		}
 		
-		msgLoop(0);
 		
 	});
 });

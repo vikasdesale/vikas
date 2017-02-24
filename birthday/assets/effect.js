@@ -127,7 +127,7 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
-		 var x = document.getElementById('birthday');
+		 var x = document.getElementById('.birthday');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {

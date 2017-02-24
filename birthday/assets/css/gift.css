@@ -10,9 +10,9 @@ body {
     height: 180px;
 	
 }
-#birthday_id {
-    position: fixed;
-    bottom: 200px;
+.birthday {
+    position: absolute;
+    bottom: 100px;
     width: 100%;
 }
 .wrap {

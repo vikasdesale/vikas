@@ -2,8 +2,6 @@ $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
-
-
 $('document').ready(function(){
 		var vw;
 		$(window).resize(function(){
@@ -18,7 +16,13 @@ $('document').ready(function(){
 			$('#b77').animate({top:240, left: vw+250},500);
 		});
 
-	$('#start').click(function(){
+	$('#turn_on').click(function(){
+		$('#bulb_yellow').addClass('bulb-glow-yellow');
+		$('#bulb_red').addClass('bulb-glow-red');
+		$('#bulb_blue').addClass('bulb-glow-blue');
+		$('#bulb_green').addClass('bulb-glow-green');
+		$('#bulb_pink').addClass('bulb-glow-pink');
+		$('#bulb_orange').addClass('bulb-glow-orange');
 		$('body').addClass('peach');
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#play').fadeIn('slow');
@@ -42,7 +46,6 @@ $('document').ready(function(){
 
 	$('#bannar_coming').click(function(){
 		$('.bannar').addClass('bannar-come');
-				$('#birthday_id').addClass('birthday');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
@@ -122,8 +125,10 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
-
-        $('#birthday_id').addClass('birthday');
+		$('.cake').fadeIn('slow');
+		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+			$('#light_candle').fadeIn('slow');
+		});
 	});
 
 	$('#light_candle').click(function(){

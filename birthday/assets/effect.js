@@ -19,7 +19,9 @@ $('document').ready(function(){
 		});
 
 	$('#turn_on').click(function(){
-		$('#bulb_yellow').addClass('bulb-glow-yellow');
+	 document.getElementById('birthday').style.display='block';
+
+	$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
 		$('#bulb_blue').addClass('bulb-glow-blue');
 		$('#bulb_green').addClass('bulb-glow-green');
@@ -127,12 +129,7 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
-		 var x = document.getElementById('birthday');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
+	 document.getElementById('birthday').style.display='block';
 	});
 
 	$('#light_candle').click(function(){

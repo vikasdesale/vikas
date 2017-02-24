@@ -161,6 +161,8 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 		$('.cards').fadeOut('slow');
 		});
+				$('.balloons h2').fadeOut(1);
+
 				$('.cards1').fadeIn('slow');
 				$('.thankYou').fadeIn('slow');
 

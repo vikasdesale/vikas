@@ -1,11 +1,16 @@
 .gift {
-    position: fix;
+    position: absolute;
     bottom: 100px;
     width: 150px;
     left: 172px;
     z-index: 12;
     height: 180px;
 	
+}
+#birhtday_id {
+    position: fixed;
+    bottom: 0;
+    width: 150px;
 }
 .birthday {
 	display: none;

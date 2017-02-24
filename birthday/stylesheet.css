@@ -15,13 +15,7 @@ body {
 	background-color: #FFDAB9;
 	
 }
-#birhtday{
-  display:none;
 
-}
-#birthday.show{
-  display:block; /* P.S: Use `!important` if missing `#content` (selector specificity). */
-}
 .peach-after {
 	-webkit-animation:peach_alive linear 8s infinite;
 	-moz-animation:peach_alive linear 8s infinite;

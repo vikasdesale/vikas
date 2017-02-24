@@ -155,9 +155,13 @@ $('document').ready(function(){
 	});
 	
 	$('#story').click(function(){
-	
-	var delay = 1000; //Your delay in milliseconds
-setTimeout(function(){ window.location = https://www.w3schools.com/jsref/prop_style_display.asp; }, delay);
+		$(this).fadeOut('slow');
+		var delay = 1000; //Your delay in milliseconds
+setTimeout(function(){ window.location = "http://geca.ac.in/;" }, delay);
+		$('.cake').fadeOut('fast').promise().done(function(){
+			$('.message').fadeIn('slow');
+		});
+		
 });
 
 

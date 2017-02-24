@@ -11,7 +11,9 @@
 #birthday_id {
     position: fixed;
     bottom: 150;
-    width: 150px;
+	margin-left: auto; 
+	margin-right: auto;
+    width: 100%;
 }
 .birthday {
 	display: none;

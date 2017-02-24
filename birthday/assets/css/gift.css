@@ -1,5 +1,5 @@
 .gift {
-    position: absolute;
+    position: fix;
     bottom: 100px;
     width: 150px;
     left: 172px;

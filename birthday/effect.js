@@ -3,14 +3,7 @@ $(window).load(function(){
 	$('.container').fadeIn('fast');
 });
 
-function myFunction() {
-    var x = document.getElementById('birthday');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
+
 $('document').ready(function(){
 		var vw;
 		$(window).resize(function(){
@@ -134,10 +127,13 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
-		$('.cake').fadeIn('slow');
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('#light_candle').fadeIn('slow');
-		});
+		 var x = document.getElementById('birthday');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+	});
 	});
 
 	$('#light_candle').click(function(){

@@ -336,6 +336,14 @@ body {
 #circle5 {
     right: -1px;
 }
+
+#birhtday{
+  display:none;
+
+}
+#birthday.show{
+  display:block; /* P.S: Use `!important` if missing `#content` (selector specificity). */
+}
 .cake_top1_creams {
     height: 18px;
     border-radius: 5px;

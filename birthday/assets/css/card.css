@@ -35,7 +35,7 @@
     box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
 }
 #card {
- max-width: 500px;
+ max-width: 50%;
     margin: 0 auto;
     transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -46,7 +46,6 @@
     position: relative;
 	top: 40%;
 	left: -30%;
-	transform:translateY(-60%);
 	display: none;
 }
 

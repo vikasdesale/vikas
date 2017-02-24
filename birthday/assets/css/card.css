@@ -43,6 +43,7 @@
     -moz-perspective: 5000px;
     -webkit-perspective: 5000px;
     position: relative;
+	display: none;
 }
 
 #card h1 {

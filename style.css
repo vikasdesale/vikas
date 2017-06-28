@@ -1,0 +1,278 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+#header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    /*z-index: 2;*/
+}
+
+.nav {
+    float: right;
+    font-family: 'Arial';
+    text-transform: uppercase;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    float: left;
+    list-style-type: none;
+    border: 1px solid #eee;
+}
+
+.nav ul li a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+#branding {
+    width: 200px;
+    height: 50px;
+    float: left;
+    background: url('http://lorempixel.com/output/business-q-g-301-63-4.jpg') no-repeat center center;
+    background-size: 200px;
+}
+
+#minimenu {
+    display: none;
+    float: right;
+    margin-right: 20px;
+    font-size: 36px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.section:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.section {
+    min-height: 1000px;
+    padding-top: 100px;
+    overflow: hidden;
+    /*position: relative;*/
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.section article {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+#about {
+    background: url('http://lorempixel.com/output/city-q-c-1460-1010-5.jpg') no-repeat;
+    background-size: cover;
+}
+
+#products {
+    background: url('http://lorempixel.com/output/business-q-c-1460-1010-8.jpg') no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:680px) {
+    #home {
+        background-color: aqua;
+    }
+    #minimenu {
+        display: block !important;
+        float: right;
+    }
+    .nav {
+        display: none;
+        width: 100%;
+    }
+    .nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:640px) {
+    #home {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:480px) {
+    #home {
+        background-color: green;
+    }
+}
+
+
+#intro {
+  left: 0;
+  top: 10%;
+  padding: 0 20px;
+  text-align: center;
+  overflow:hidden;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 85px;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+}
+h1::after {
+  content: '';
+  width: 80px;
+  display: block;
+  background: #fff;
+  height: 10px;
+  margin: 30px auto;
+  line-height: 1.1;
+}
+p {
+  margin: 0 0 30px 0;
+  font-size: 24px;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
+}
+.btn:hover {
+  color: #005544;
+  border-color: #005544;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+  h1::after {
+    height: 8px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  #intro {
+    padding: 0 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h1::after {
+    height: 6px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
+  h1::after {
+    height: 4px;
+  }
+}
+/* particleground demo */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #16a085;
+  font-family: "Quicksand",sans-serif;
+  color: #fff;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+}
+figcaption,figure,main
+{
+	
+}
+figure
+{
+	margin: 1em 40px;
+}
+
+
+.hero .wrapper--content
+{
+	margin-bottom: 40px;
+	max-width: 700px;
+	padding-top: 130px;
+	position: relative;
+	z-index: 200;
+}
+@media (min-width: 768px)
+{
+	.hero .wrapper--content
+	{
+		margin-bottom: 60px;
+		padding-top: 220px;
+	}
+}
+@media (min-width: 1024px)
+{
+	.hero .wrapper--content
+	{
+		margin-bottom: 100px;
+		padding-top: 260px;
+	}
+}
+.imgThumb
+{
+	position: relative;
+	z-index: 200;
+}
+.imgThumb img
+{
+	border: #fff 5px solid;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+.imgThumb figcaption
+{
+	position: relative;
+}
+.imgThumb figcaption a
+{
+	display: inline-block;
+	margin: 0 15px;
+	position: relative;
+}
+.imgThumb figcaption .github,.imgThumb figcaption .twitter
+{
+	top: -15px;
+}

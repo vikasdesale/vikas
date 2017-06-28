@@ -1,0 +1,18 @@
+Section 5, Lecture 28
+http://brackets.io/ - web editor
+
+http://www.blindtextgenerator.com/lorem-ipsum - dummy text
+
+http://lorempixel.com/ - placeholder images
+
+http://fontawesome.io/get-started/#bootstrapcdn - font awesome
+
+https://wireframe.cc/ - wire framing site
+
+https://www.bootstrapcdn.com/fontawesome/ - font awesome CDN
+
+https://www.google.com/fonts#QuickUsePlace:quickUse - google fonts
+
+https://developers.google.com/speed/libraries/ - hosted libraries
+
+https://www.apachefriends.org/index.html - virtual server

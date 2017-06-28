@@ -4,7 +4,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', function () {
-  particleground(document.getElementById('about'), {
+  particleground(document.getElementById('home'), {
     dotColor: '#5cbdaa',
     lineColor: '#5cbdaa'
   });
@@ -12,6 +12,12 @@ document.addEventListener('DOMContentLoaded', function () {
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
 }, false);
 
+
+document.addEventListener('DOMContentLoaded', function () {
+  particleground(document.getElementById('body'), {
+    dotColor: '#5cbdaa',
+    lineColor: '#5cbdaa'
+  });});
 
 /*
 // jQuery plugin example:

@@ -1076,6 +1076,9 @@ audio {
 	}
 }
 
+#v{
+	margin-top: -100px;
+}
 .balloons {
 	position: absolute;
 	bottom: -100px;
